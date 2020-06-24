@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84A209524A3EA0900CE934E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A209424A3EA0900CE934E /* AppDelegate.m */; };
+		C84A209824A3EA0900CE934E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A209724A3EA0900CE934E /* SceneDelegate.m */; };
+		C84A209E24A3EA0900CE934E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84A209C24A3EA0900CE934E /* Main.storyboard */; };
+		C84A20A024A3EA0D00CE934E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C84A209F24A3EA0D00CE934E /* Assets.xcassets */; };
+		C84A20A324A3EA0D00CE934E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C84A20A124A3EA0D00CE934E /* LaunchScreen.storyboard */; };
+		C84A20A624A3EA0D00CE934E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A20A524A3EA0D00CE934E /* main.m */; };
+		C84A20B524A3EE7D00CE934E /* HWSCityAirQaulity.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A20B424A3EE7D00CE934E /* HWSCityAirQaulity.m */; };
+		C84A20B824A3EE9100CE934E /* HWSWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A20B724A3EE9100CE934E /* HWSWeather.m */; };
+		C84A20BB24A3EEA500CE934E /* HWSPollution.m in Sources */ = {isa = PBXBuildFile; fileRef = C84A20BA24A3EEA500CE934E /* HWSPollution.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C84A209024A3EA0900CE934E /* AirQuality-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirQuality-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84A209324A3EA0900CE934E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C84A209424A3EA0900CE934E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C84A209624A3EA0900CE934E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C84A209724A3EA0900CE934E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C84A209D24A3EA0900CE934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C84A209F24A3EA0D00CE934E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C84A20A224A3EA0D00CE934E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C84A20A424A3EA0D00CE934E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C84A20A524A3EA0D00CE934E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C84A20B324A3EE7D00CE934E /* HWSCityAirQaulity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSCityAirQaulity.h; sourceTree = "<group>"; };
+		C84A20B424A3EE7D00CE934E /* HWSCityAirQaulity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSCityAirQaulity.m; sourceTree = "<group>"; };
+		C84A20B624A3EE9100CE934E /* HWSWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSWeather.h; sourceTree = "<group>"; };
+		C84A20B724A3EE9100CE934E /* HWSWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSWeather.m; sourceTree = "<group>"; };
+		C84A20B924A3EEA500CE934E /* HWSPollution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWSPollution.h; sourceTree = "<group>"; };
+		C84A20BA24A3EEA500CE934E /* HWSPollution.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWSPollution.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C84A208D24A3EA0900CE934E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C84A208724A3EA0900CE934E = {
+			isa = PBXGroup;
+			children = (
+				C84A209224A3EA0900CE934E /* AirQuality-C */,
+				C84A209124A3EA0900CE934E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C84A209124A3EA0900CE934E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84A209024A3EA0900CE934E /* AirQuality-C.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84A209224A3EA0900CE934E /* AirQuality-C */ = {
+			isa = PBXGroup;
+			children = (
+				C84A20AD24A3EB0D00CE934E /* Models */,
+				C84A20AE24A3EB1500CE934E /* ModelController */,
+				C84A20AF24A3EB2C00CE934E /* Views */,
+				C84A20AC24A3EABD00CE934E /* Resources */,
+			);
+			path = "AirQuality-C";
+			sourceTree = "<group>";
+		};
+		C84A20AC24A3EABD00CE934E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C84A209324A3EA0900CE934E /* AppDelegate.h */,
+				C84A209424A3EA0900CE934E /* AppDelegate.m */,
+				C84A209624A3EA0900CE934E /* SceneDelegate.h */,
+				C84A209724A3EA0900CE934E /* SceneDelegate.m */,
+				C84A209F24A3EA0D00CE934E /* Assets.xcassets */,
+				C84A20A124A3EA0D00CE934E /* LaunchScreen.storyboard */,
+				C84A20A424A3EA0D00CE934E /* Info.plist */,
+				C84A20A524A3EA0D00CE934E /* main.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C84A20AD24A3EB0D00CE934E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C84A20B324A3EE7D00CE934E /* HWSCityAirQaulity.h */,
+				C84A20B424A3EE7D00CE934E /* HWSCityAirQaulity.m */,
+				C84A20B624A3EE9100CE934E /* HWSWeather.h */,
+				C84A20B724A3EE9100CE934E /* HWSWeather.m */,
+				C84A20B924A3EEA500CE934E /* HWSPollution.h */,
+				C84A20BA24A3EEA500CE934E /* HWSPollution.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C84A20AE24A3EB1500CE934E /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelController;
+			sourceTree = "<group>";
+		};
+		C84A20AF24A3EB2C00CE934E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C84A20B024A3EB3100CE934E /* ViewControllers */,
+				C84A20B224A3EB5000CE934E /* Storyboards */,
+				C84A20B124A3EB4100CE934E /* CustomViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C84A20B024A3EB3100CE934E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C84A20B124A3EB4100CE934E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		C84A20B224A3EB5000CE934E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C84A209C24A3EA0900CE934E /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84A208F24A3EA0900CE934E /* AirQuality-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84A20A924A3EA0D00CE934E /* Build configuration list for PBXNativeTarget "AirQuality-C" */;
+			buildPhases = (
+				C84A208C24A3EA0900CE934E /* Sources */,
+				C84A208D24A3EA0900CE934E /* Frameworks */,
+				C84A208E24A3EA0900CE934E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirQuality-C";
+			productName = "AirQuality-C";
+			productReference = C84A209024A3EA0900CE934E /* AirQuality-C.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84A208824A3EA0900CE934E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HWS;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Hunter Smith";
+				TargetAttributes = {
+					C84A208F24A3EA0900CE934E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = C84A208B24A3EA0900CE934E /* Build configuration list for PBXProject "AirQuality-C" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C84A208724A3EA0900CE934E;
+			productRefGroup = C84A209124A3EA0900CE934E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84A208F24A3EA0900CE934E /* AirQuality-C */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C84A208E24A3EA0900CE934E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84A20A324A3EA0D00CE934E /* LaunchScreen.storyboard in Resources */,
+				C84A20A024A3EA0D00CE934E /* Assets.xcassets in Resources */,
+				C84A209E24A3EA0900CE934E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C84A208C24A3EA0900CE934E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84A209524A3EA0900CE934E /* AppDelegate.m in Sources */,
+				C84A20BB24A3EEA500CE934E /* HWSPollution.m in Sources */,
+				C84A20A624A3EA0D00CE934E /* main.m in Sources */,
+				C84A20B824A3EE9100CE934E /* HWSWeather.m in Sources */,
+				C84A20B524A3EE7D00CE934E /* HWSCityAirQaulity.m in Sources */,
+				C84A209824A3EA0900CE934E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C84A209C24A3EA0900CE934E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84A209D24A3EA0900CE934E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C84A20A124A3EA0D00CE934E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C84A20A224A3EA0D00CE934E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C84A20A724A3EA0D00CE934E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C84A20A824A3EA0D00CE934E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C84A20AA24A3EA0D00CE934E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QLUKB86TJ;
+				INFOPLIST_FILE = "AirQuality-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterSmith.AirQuality-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C84A20AB24A3EA0D00CE934E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2QLUKB86TJ;
+				INFOPLIST_FILE = "AirQuality-C/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterSmith.AirQuality-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84A208B24A3EA0900CE934E /* Build configuration list for PBXProject "AirQuality-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84A20A724A3EA0D00CE934E /* Debug */,
+				C84A20A824A3EA0D00CE934E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C84A20A924A3EA0D00CE934E /* Build configuration list for PBXNativeTarget "AirQuality-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84A20AA24A3EA0D00CE934E /* Debug */,
+				C84A20AB24A3EA0D00CE934E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84A208824A3EA0900CE934E /* Project object */;
+}
